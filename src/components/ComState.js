@@ -23,7 +23,7 @@ class ComState extends Component {
   render() {
     return (
       <div>
-        当前数目：{this.state.counter}
+        当前数目：{this.state.counter.toLocaleString()}
         <button onClick={this.increase}>增加100</button>
       </div>
     );
