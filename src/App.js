@@ -5,6 +5,7 @@ import './components/style.css';
 import HelloWorld from './components/HelloWorld';
 import ComplexCard from './components/ComplexCard';
 import PropsShirt from './components/PropsShirt';
+import ComState from './components/ComState';
 function App() {
   return (
     <div className="App">
@@ -28,6 +29,7 @@ function App() {
         num={3.14}
         size={'medium'}
       />
+      <ComState />
     </div>
   );
 }
