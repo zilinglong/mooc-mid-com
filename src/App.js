@@ -4,7 +4,7 @@ import './App.css';
 import './components/style.css';
 import HelloWorld from './components/HelloWorld';
 import ComplexCard from './components/ComplexCard';
-
+import PropsShirt from './components/PropsShirt';
 function App() {
   return (
     <div className="App">
@@ -23,6 +23,11 @@ function App() {
       <HelloWorld name={'xiaoming'} bgColor={'#eee'} color={'#0f0'} />
       <HelloWorld name={'tom'} bgColor={'#ttt'} color={'#00f'} />
       <ComplexCard color={'#0f0'} />
+      <PropsShirt
+        color={'#f00'}
+        num={3.14}
+        size={'medium'}
+      />
     </div>
   );
 }
